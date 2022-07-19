@@ -1,0 +1,58 @@
+*{
+    
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(25, 33, 41);
+    height: 50px;
+}
+a{ 
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+header{
+    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.title_big{
+    padding: 25px;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 500;
+}
+
+
+h2{
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 4.2em;
+    text-align: center;
+    line-height: 1em;
+}
+h4{
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+h5{
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
