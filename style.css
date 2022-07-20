@@ -46,6 +46,7 @@ h2{
     text-transform: uppercase;
 }
 h3{
+    margin: 0;
     font-size: 4.2em;
     text-align: center;
     line-height: 1em;
@@ -65,15 +66,17 @@ header{
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
+    height: 700px;
 }
 header h2{
     text-shadow: #020819 8px -20px 9px;
     color: white;
+    
     }
-.descr{
+.header_text{
+    margin: 0;
     font-size: 2.5em;
-    font-style: italic;
+    
     }
 .descr_1{
     font-size: 2.5em;
