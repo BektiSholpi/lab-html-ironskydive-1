@@ -78,7 +78,7 @@ header h2{
 .descr_1{
     font-size: 2.5em;
 }
-#id {
+.sub_header{
     background-color:rgb(25, 33, 41);
     color: white;
 }
@@ -96,23 +96,52 @@ header h2{
     text-align: center;
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.text_box{
+    font-size: 1.7em;
+    text-align: center;
+}
+.text_box img{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 125px;
+    font-size: 20px;
+    text-decoration: none;
+}
 
 .team{
     background-color:rgb(25, 33, 41);
     color: white;
 }
+.team_text{
+font-size: 1.9em;
+text-align: center;
+}
+
 .team_title{
-    
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.team img{
+    width: 250px;
+    height: 180px;
+}
+.footer{
+    font-size: 1.9em;
+}   
+
+.footer_addr{
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.footer a{
+    color: blue;
+    text-decoration: none;
+
+}
+.footer ul{
+    list-style: none;
 }
